@@ -1,11 +1,10 @@
-const accessKey = "d0-lxfdEisuHpBLAFiOk9172E99ER506J8-OY4oQKHE";
-
 const searchForm = document.getElementById("search-form");
 const searchbox = document.getElementById("search-box");
 const searchHistory = document.getElementById("search-history");
 const showMoreBtn = document.getElementById("show-more-btn");
 const searchResult = document.getElementById("search-result");
 const loadingSpinner = document.getElementById("loading-spinner");
+const accessKey = "d0-lxfdEisuHpBLAFiOk9172E99ER506J8-OY4oQKHE";
 const modal = document.getElementById("image-modal");
 const modalImg = document.getElementById("modal-img");
 const captionText = document.getElementById("caption");
