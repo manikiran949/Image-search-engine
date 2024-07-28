@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search Engine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="heading-1">Image Search Engine</h1>
+    <form id="search-form">
+        <input type="text" id="search-box" placeholder="Search Anything Here....">
+        <button type="submit">Search <span>&#128269;</span></button>
+        <div class="search-history" id="search-history"></div>
+    </form>
+
+    <div id="search-result"></div>
+    <div id="loading-spinner" class="spinner" style="display: none;">Loading...</div>
+    <button id="show-more-btn">Show more</button>
+
+    <!-- The Modal -->
+    <div id="image-modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+        <div id="caption"></div>
+        <a id="download-link" class="download-link" href="#" download>Download</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
